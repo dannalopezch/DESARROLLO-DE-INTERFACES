@@ -1,0 +1,411 @@
+header {
+    background-color: #29665F;
+    display: flex;
+}
+
+body {
+    background-color: #C2C8CD;
+}
+
+.menu_button {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    background-color: #29665F;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90px;
+    height: 90px;
+}
+.buscador{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer{
+    background-color: #29665F;
+    display: flex;
+}
+
+h5{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+}
+
+.logo-rs{
+    width: 50px;
+    height: 50px;
+}
+
+.logos-rs{
+    margin-left: auto;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Home*/
+
+.divMain {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #29665F;
+}
+
+
+.textMain {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textMain p{
+    color: aliceblue;
+    font-family:'Gill Sans';
+    font-size: 45px;
+}
+
+
+.carMain {
+    width: 500px;
+    height: auto;
+}
+
+
+.buttonsMain {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btnMain {
+    font-size: 18px;
+    background-color: #00A8A8;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.divMain2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #C2C8CD;
+}
+
+
+.leftMain2 {
+    width: 48%;
+}
+
+
+.rightMain {
+    width: 48%;
+    background-color: #29665F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.buttonsSecondary {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.leftMain2{
+    width: 500px;
+    height: auto;
+    background-color: #29665F;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carMain2{
+    width: 450px;
+    height: auto;
+    margin-top: 5%;
+}
+
+
+/* Nosotros */
+
+h1{
+    height: 40px;
+    width: 100%;
+    padding: 65px 0;
+    color: rgb(226, 198, 203);
+    font-size: 40px;
+
+}
+
+.section {
+    display: flex;              
+     justify-content: space-between; /* Espacia los elementos horizontalmente */
+     align-items: center;        /* Alinea verticalmente los elementos en el centro */
+     background-color: #29665F;     /* Color de fondo */
+     padding: 20px;              /* Espaciado interno */
+}
+
+.about-text {
+     flex: 1;                    /* El texto ocupará el espacio que queda disponible */
+     text-align: center;            /* Alinea el texto a la izquierda */
+     padding-right: 20px;        /* Añade espacio a la derecha del texto */
+    font-size: 30px;
+    font-family:'Gill Sans';
+}    
+ 
+.about-image img {
+     width: 300px;               /* Controla el tamaño de la imagen */
+     height: auto;               /* Mantén la proporción original de la imagen */
+}
+
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.about-content img {
+    width: 500px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+/*Editar el color y la fuente de los parrafos y los subtitulos*/
+
+.about-content h2 {
+     font-family:'Gill Sans';
+     color: rgba(119, 81, 81, 0.661);
+ }
+ 
+ p{
+     font-family:'Gill Sans';
+     font-size: 20px;
+ }
+ 
+ /* Estilos del header */
+ .header-section {
+     background-color: #00695c; 
+     padding: 20px; /* Espaciado interno */
+     display: flex;
+     align-items: center;
+ }
+ 
+ /* Estilos para la sección principal */
+ .main-content {
+     background-color: #00695c; 
+     padding: 50px;
+     margin-top: 20px; /* Espacio entre el header y la sección principal */
+ }
+ 
+ .about-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .about-text h1 {
+     color: rgb(215, 182, 182);
+     font-size: 36px;
+     font-weight: bold;
+ }
+ 
+ .about-image .company-img {
+     width: 400px;
+     height: auto;
+ }
+
+
+
+/*Servicios*/
+
+
+
+main {
+    padding-top: 20px;
+}
+
+.mainService {
+    background-color: #29665F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.rightMainService {
+    padding-left: 10%; 
+}
+
+.imgService {
+    width: 300px;
+    height: auto;
+}
+
+.leftMainService h2 {
+    font-size: 2rem;
+}
+
+.sectionService {
+    background-color: #C2C8CD;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.leftSectionService {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%; 
+}
+
+.stationSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mapSection img {
+    width: 130px;
+    height: auto;
+}
+
+.productoSection {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.productoSection img {
+    width: 45px;
+    height: 45px;
+}
+
+.rigthSectionService {
+    background-color: #29665F;
+    width: 35%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+.workOptionSectionService {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.workOptionSectionService button {
+    background-color: #00A8A8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.bottomSectionService {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.questionLeftSection, .califRigthSection {
+    width: 48%; 
+    text-align: center;
+}
+
+.califRigthSection span {
+    font-size: 1.5rem;
+}
+
+/*Contacto
+/* Estilo General */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #e8ecef;
+}
+
+/* Estilo de la sección principal */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Estilo para la sección del chat */
+.chat-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f9fa;
+    padding: 20x;
+    border-radius: 10px;
+}
+
+.chat-image {
+    width: 300px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.phone-numbers p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilo para la sección del mapa */
+.map-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-image {
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
